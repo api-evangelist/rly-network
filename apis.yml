@@ -1,22 +1,90 @@
 aid: rly-network
+accessModel:
+  pricing: unknown
+  onboarding: open
+  trial: false
+  try_now: false
+  public: true
+  label: Open access
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rly-network.png
 name: RLY Network
-description: RLY Network is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  RLY Network (Rally Protocol) is a permissionless, open-source web3 toolkit that
+  lets mobile and game developers add blockchain features to consumer apps without
+  requiring users to understand crypto. Its core products are natively embedded,
+  self-custodial wallets — keys are generated and encrypted in the device secure
+  enclave with cloud backup, no signups or third-party logins — and gasless
+  transactions, where minting, claiming, and transferring tokens or NFTs are
+  relayed through a GSN gas-station paymaster so end users never pay gas. RLY ships
+  first-party SDKs for React Native/Expo, Flutter, and Unity rather than a hosted
+  REST API; developers get a project API key from the RallyProtocol dashboard and
+  build on Base. The RLY Network Association is backed by a16z, Coinbase Ventures,
+  and Battery Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/rly-network/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
+- Coinbase Ventures
+- Battery Ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Web3
+- Blockchain
+- Wallets
+- Mobile SDK
+- Gasless Transactions
+- Cryptocurrency
+- Developer Tools
 apis: []
+common:
+- type: DomainSecurity
+  url: security/rly-network-domain-security.yml
+- type: Website
+  url: https://rly.network
+- type: DeveloperPortal
+  url: https://www.rallyprotocol.com
+- type: Documentation
+  url: https://docs.rallyprotocol.com
+- type: GettingStarted
+  url: https://docs.rallyprotocol.com/react-native-expo/getting-started
+- type: GitHubOrganization
+  url: https://github.com/rally-dfs
+- type: Blog
+  url: https://blog.rallyprotocol.com
+- type: SignUp
+  url: https://app.rallyprotocol.com/
+- type: TermsOfService
+  url: https://rly.network/terms-of-use/
+- type: PrivacyPolicy
+  url: https://rly.network/privacy-policy/
+- type: Packages
+  url: packages/rly-network-packages.yml
+- type: SDKs
+  url: packages/rly-network-packages.yml
+- type: Authentication
+  url: authentication/rly-network-authentication.yml
+- type: LLMsTxt
+  url: llms/rly-network-llms.txt
+- type: WellKnown
+  url: well-known/rly-network-well-known.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1

@@ -1,0 +1,116 @@
+# RallyProtocol
+
+## Mobile SDKs
+
+- [Overview](https://docs.rallyprotocol.com/rallyprotocol/overview.md)
+- [Embedded wallets](https://docs.rallyprotocol.com/rallyprotocol/embedded-wallets.md)
+- [Gasless transasctions](https://docs.rallyprotocol.com/rallyprotocol/gasless-transasctions.md)
+- [Example dapps](https://docs.rallyprotocol.com/resources/example-dapps.md)
+- [Claim NFT dapp](https://docs.rallyprotocol.com/resources/example-dapps/claim-nft-dapp.md)
+- [Videos](https://docs.rallyprotocol.com/resources/videos.md)
+- [Intro to embedded wallets](https://docs.rallyprotocol.com/resources/videos/intro-to-embedded-wallets.md)
+- [Intro to gasless transactions](https://docs.rallyprotocol.com/resources/videos/intro-to-gasless-transactions.md)
+- [RallyProtocol dashboard basics](https://docs.rallyprotocol.com/resources/videos/rallyprotocol-dashboard-basics.md)
+- [Guides](https://docs.rallyprotocol.com/resources/guides.md)
+- [Add ERC2771Recipient](https://docs.rallyprotocol.com/resources/guides/add-erc2771recipient.md)
+- [Gasless transaction methods](https://docs.rallyprotocol.com/resources/guides/gasless-transaction-methods.md)
+- [Supported tokens](https://docs.rallyprotocol.com/resources/supported-tokens.md)
+- [Community libraries](https://docs.rallyprotocol.com/resources/community-libraries.md)
+- [FAQs](https://docs.rallyprotocol.com/resources/faqs.md)
+
+## Flutter
+
+- [Overview](https://docs.rallyprotocol.com/flutter/getting-started/overview.md)
+- [Installation](https://docs.rallyprotocol.com/flutter/getting-started/installation.md)
+- [Overview](https://docs.rallyprotocol.com/flutter/embedded-wallets/overview.md)
+- [Getting started](https://docs.rallyprotocol.com/flutter/embedded-wallets/getting-started.md)
+- [Create wallets](https://docs.rallyprotocol.com/flutter/embedded-wallets/create-wallets.md)
+- [Manage wallets](https://docs.rallyprotocol.com/flutter/embedded-wallets/manage-wallets.md)
+- [How it works](https://docs.rallyprotocol.com/flutter/embedded-wallets/how-it-works.md)
+- [Natively embedded wallets](https://docs.rallyprotocol.com/flutter/embedded-wallets/natively-embedded-wallets.md)
+- [Embedded smart accounts](https://docs.rallyprotocol.com/flutter/embedded-wallets/embedded-smart-accounts.md)
+- [Getting Started](https://docs.rallyprotocol.com/flutter/embedded-wallets/embedded-smart-accounts/getting-started.md)
+- [Overview](https://docs.rallyprotocol.com/flutter/embedded-wallets/embedded-smart-accounts/overview.md)
+- [Overview](https://docs.rallyprotocol.com/flutter/gasless-transactions/overview.md)
+- [Getting Started](https://docs.rallyprotocol.com/flutter/gasless-transactions/getting-started.md)
+- [Read balances](https://docs.rallyprotocol.com/flutter/gasless-transactions/read-balances.md)
+- [Transfer tokens gaslessly](https://docs.rallyprotocol.com/flutter/gasless-transactions/transfer-tokens-gaslessly.md)
+- [Deploy a contract gaslessly](https://docs.rallyprotocol.com/flutter/gasless-transactions/deploy-a-contract-gaslessly.md)
+- [Transact with a contract gaslessly](https://docs.rallyprotocol.com/flutter/gasless-transactions/transact-with-a-contract-gaslessly.md)
+- [Using with embedded wallets](https://docs.rallyprotocol.com/flutter/gasless-transactions/using-with-embedded-wallets.md)
+- [Using without embedded wallets](https://docs.rallyprotocol.com/flutter/gasless-transactions/using-without-embedded-wallets.md)
+- [Getting started](https://docs.rallyprotocol.com/flutter/gasless-transactions/using-without-embedded-wallets/getting-started.md)
+- [Typescript Example](https://docs.rallyprotocol.com/flutter/gasless-transactions/using-without-embedded-wallets/typescript-example.md)
+- [Guides](https://docs.rallyprotocol.com/flutter/gasless-transactions/guides.md)
+- [Add ERC2771Recipient](https://docs.rallyprotocol.com/flutter/gasless-transactions/guides/add-erc2771recipient.md)
+- [Determining the gasless transaction method](https://docs.rallyprotocol.com/flutter/gasless-transactions/guides/determining-the-gasless-transaction-method.md)
+
+## React Native / Expo
+
+- [Overview](https://docs.rallyprotocol.com/react-native-expo/getting-started/overview.md)
+- [Installation](https://docs.rallyprotocol.com/react-native-expo/getting-started/installation.md)
+- [Overview](https://docs.rallyprotocol.com/react-native-expo/embedded-wallets/overview.md)
+- [Getting started](https://docs.rallyprotocol.com/react-native-expo/embedded-wallets/getting-started.md)
+- [Create wallets](https://docs.rallyprotocol.com/react-native-expo/embedded-wallets/create-wallets.md)
+- [Manage wallets](https://docs.rallyprotocol.com/react-native-expo/embedded-wallets/manage-wallets.md)
+- [How it works](https://docs.rallyprotocol.com/react-native-expo/embedded-wallets/how-it-works.md)
+- [Embedded EOA wallets](https://docs.rallyprotocol.com/react-native-expo/embedded-wallets/embedded-eoa-wallets.md)
+- [Embedded smart accounts](https://docs.rallyprotocol.com/react-native-expo/embedded-wallets/embedded-smart-accounts.md)
+- [Getting Started](https://docs.rallyprotocol.com/react-native-expo/embedded-wallets/embedded-smart-accounts/getting-started.md)
+- [Overview](https://docs.rallyprotocol.com/react-native-expo/embedded-wallets/embedded-smart-accounts/overview.md)
+- [Getting Started](https://docs.rallyprotocol.com/react-native-expo/gasless-transactions/getting-started.md)
+- [Read balances](https://docs.rallyprotocol.com/react-native-expo/gasless-transactions/read-balances.md)
+- [Transfer tokens gaslessly](https://docs.rallyprotocol.com/react-native-expo/gasless-transactions/transfer-tokens-gaslessly.md)
+- [Deploy a contract gaslessly](https://docs.rallyprotocol.com/react-native-expo/gasless-transactions/deploy-a-contract-gaslessly.md)
+- [Transact with a contract gaslessly](https://docs.rallyprotocol.com/react-native-expo/gasless-transactions/transact-with-a-contract-gaslessly.md)
+- [Use with embedded wallets](https://docs.rallyprotocol.com/react-native-expo/gasless-transactions/use-with-embedded-wallets.md)
+- [Overview](https://docs.rallyprotocol.com/react-native-expo/gasless-transactions/use-with-embedded-wallets/overview.md)
+- [Using without embedded wallets](https://docs.rallyprotocol.com/react-native-expo/gasless-transactions/using-without-embedded-wallets.md)
+- [Getting started](https://docs.rallyprotocol.com/react-native-expo/gasless-transactions/using-without-embedded-wallets/getting-started.md)
+- [Typescript Example](https://docs.rallyprotocol.com/react-native-expo/gasless-transactions/using-without-embedded-wallets/typescript-example.md)
+- [Guides](https://docs.rallyprotocol.com/react-native-expo/gasless-transactions/guides.md)
+- [Add ERC2771Recipient](https://docs.rallyprotocol.com/react-native-expo/gasless-transactions/guides/add-erc2771recipient.md)
+- [Determining the gasless transaction method](https://docs.rallyprotocol.com/react-native-expo/gasless-transactions/guides/determining-the-gasless-transaction-method.md)
+
+## Unity
+
+- [Overview](https://docs.rallyprotocol.com/unity/getting-started/overview.md)
+- [Installation](https://docs.rallyprotocol.com/unity/getting-started/installation.md)
+- [Overview](https://docs.rallyprotocol.com/unity/embedded-wallets/overview.md)
+- [Getting started](https://docs.rallyprotocol.com/unity/embedded-wallets/getting-started.md)
+- [Create wallets](https://docs.rallyprotocol.com/unity/embedded-wallets/create-wallets.md)
+- [Manage wallets](https://docs.rallyprotocol.com/unity/embedded-wallets/manage-wallets.md)
+- [How it works](https://docs.rallyprotocol.com/unity/embedded-wallets/how-it-works.md)
+- [Natively embedded wallets](https://docs.rallyprotocol.com/unity/embedded-wallets/natively-embedded-wallets.md)
+- [Embedded smart accounts](https://docs.rallyprotocol.com/unity/embedded-wallets/embedded-smart-accounts.md)
+- [Getting Started](https://docs.rallyprotocol.com/unity/embedded-wallets/embedded-smart-accounts/getting-started.md)
+- [Overview](https://docs.rallyprotocol.com/unity/embedded-wallets/embedded-smart-accounts/overview.md)
+- [Overview](https://docs.rallyprotocol.com/unity/gasless-transactions/overview.md)
+- [Getting started](https://docs.rallyprotocol.com/unity/gasless-transactions/getting-started.md)
+- [Read balances](https://docs.rallyprotocol.com/unity/gasless-transactions/read-balances.md)
+- [Transfer tokens gaslessly](https://docs.rallyprotocol.com/unity/gasless-transactions/transfer-tokens-gaslessly.md)
+- [Deploy a contract gaslessly](https://docs.rallyprotocol.com/unity/gasless-transactions/deploy-a-contract-gaslessly.md)
+- [Transact with a contract gaslessly](https://docs.rallyprotocol.com/unity/gasless-transactions/transact-with-a-contract-gaslessly.md)
+- [Using with embedded wallets](https://docs.rallyprotocol.com/unity/gasless-transactions/using-with-embedded-wallets.md)
+- [Using without embedded wallets](https://docs.rallyprotocol.com/unity/gasless-transactions/using-without-embedded-wallets.md)
+- [Getting started](https://docs.rallyprotocol.com/unity/gasless-transactions/using-without-embedded-wallets/getting-started.md)
+- [Typescript Example](https://docs.rallyprotocol.com/unity/gasless-transactions/using-without-embedded-wallets/typescript-example.md)
+- [Guides](https://docs.rallyprotocol.com/unity/gasless-transactions/guides.md)
+- [Add ERC2771Recipient](https://docs.rallyprotocol.com/unity/gasless-transactions/guides/add-erc2771recipient.md)
+- [Determining the gasless transaction method](https://docs.rallyprotocol.com/unity/gasless-transactions/guides/determining-the-gasless-transaction-method.md)
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+If you need additional information, you can query the documentation dynamically by asking a question.
+Perform an HTTP GET request on a page URL with the `ask` query parameter:
+```
+GET https://docs.rallyprotocol.com/rallyprotocol/overview.md?ask=<question>
+```
+The question should be specific, self-contained, and written in natural language.
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.

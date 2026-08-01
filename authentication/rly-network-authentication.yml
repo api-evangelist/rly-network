@@ -1,0 +1,24 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.rallyprotocol.com/
+docs: https://docs.rallyprotocol.com/react-native-expo/getting-started
+summary:
+  types: [apiKey]
+  api_key_in: [sdk-config]
+  oauth2_flows: []
+schemes:
+  - name: RallyApiKey
+    type: apiKey
+    description: >-
+      A project API key obtained from the RallyProtocol dashboard is passed into
+      the SDK at initialization (e.g. RlyNetwork.configureMumbai / getAccount
+      flows). The key scopes gasless-transaction relaying and dashboard usage;
+      wallet keys themselves are generated and held on-device in the secure
+      enclave, never sent to Rally.
+    obtain_at: https://app.rallyprotocol.com/
+    sources: [docs.rallyprotocol.com]
+notes: >-
+  RLY Network publishes no OpenAPI/REST surface; authentication is an SDK
+  configuration concern (project API key + on-device key custody) rather than a
+  server securityScheme. Captured from the developer docs, not derived from a
+  spec.

@@ -1,0 +1,35 @@
+generated: '2026-07-21'
+method: searched
+source: https://docs.rallyprotocol.com/
+notes: >-
+  RLY Network / Rally Protocol ships client SDKs, not a hosted REST API. The
+  SDKs embed self-custodial wallets and execute gasless (GSN-relayed)
+  transactions on-device. Packages confirmed first-party from the rally-dfs
+  GitHub org, the npm registry, and the rallyprotocol.com verified pub.dev
+  publisher.
+packages:
+  - language: javascript
+    registry: npm
+    name: "@rly-network/mobile-sdk"
+    url: https://www.npmjs.com/package/@rly-network/mobile-sdk
+    install: npm install @rly-network/mobile-sdk
+    version: 1.7.1
+    license: MIT
+    repository: https://github.com/rally-dfs/rly-network-mobile-sdk
+    frameworks: [react-native, expo]
+    official: true
+  - language: dart
+    registry: pub.dev
+    name: rly_network_flutter_sdk
+    url: https://pub.dev/packages/rly_network_flutter_sdk
+    install: "flutter pub add rly_network_flutter_sdk"
+    publisher: rallyprotocol.com
+    frameworks: [flutter]
+    official: true
+  - language: csharp
+    registry: github
+    name: unity-sdk
+    url: https://github.com/rally-dfs/unity-sdk
+    install: "Import via Unity Package Manager from the rally-dfs/unity-sdk repository"
+    frameworks: [unity]
+    official: true
